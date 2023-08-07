@@ -1,5 +1,8 @@
 # Orchestrating a feature store with dbt, feast and Astronomer Cosmos
-
+This repo shows how to set up and run a feature store in Airflow. Its uses:
+* Astro CLI - To set up and run Airflow locally, to manage the data pipeline
+* Feast - A popular open-source feature store used to store and serve features for offline training and online inference.
+* dbt - a preprocess and transform data in features that feast can consume.
 
 ## Prereqs
 [Homebrew](https://brew.sh/)
